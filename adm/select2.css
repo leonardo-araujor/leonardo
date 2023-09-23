@@ -1,0 +1,36 @@
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.select-wrapper.open .dropdown {
+  display: block;
+}
+
+
+#searchInput {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#produto {
+  width: 100%;
+  padding: 5px;
+}
+
+.select-wrapper .dropdown {
+  display: none;
+}
+
+.select-wrapper.open .dropdown {
+  display: block;
+}
+
